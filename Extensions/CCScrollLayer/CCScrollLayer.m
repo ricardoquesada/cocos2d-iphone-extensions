@@ -258,8 +258,7 @@ enum
     }
 	
     self.position = [self positionForPageWithNumber: page];
-    prevScreen_ = currentScreen_;
-    currentScreen_ = page;
+    prevScreen_ = currentScreen_ = page;
 	
 }
 
